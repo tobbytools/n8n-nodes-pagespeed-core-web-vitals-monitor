@@ -1,0 +1,41 @@
+{
+	"node": "n8n-nodes-pagespeed-core-web-vitals-monitor",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Analytics",
+		"Marketing & Content",
+		"Development",
+		"Utility"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.apify.com/platform/integrations/n8n"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://apify.com/tobbyb/pagespeed-core-web-vitals-monitor"
+			}
+		]
+	},
+	"alias": [
+		"pagespeed",
+		"page speed",
+		"pagespeed insights",
+		"core web vitals",
+		"cwv",
+		"lighthouse",
+		"crux",
+		"lcp",
+		"inp",
+		"cls",
+		"seo",
+		"site speed",
+		"performance",
+		"sitemap",
+		"monitor",
+		"apify"
+	]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "PSI",
+  "active": false,
+  "settings": {},
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "name": "Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "n2",
+      "name": "Actor",
+      "type": "n8n-nodes-pagespeed-core-web-vitals-monitor.apifyPagespeedCoreWebVitalsMonitor",
+      "typeVersion": 1,
+      "position": [
+        250,
+        0
+      ],
+      "parameters": {
+        "authentication": "apifyApi",
+        "urls": {
+          "values": [
+            {
+              "value": "https://web.dev/"
+            }
+          ]
+        },
+        "labData": false
+      },
+      "credentials": {
+        "apifyApi": {
+          "id": "",
+          "name": "Apify account"
+        }
+      }
+    }
+  ]
+}
