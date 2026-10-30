@@ -54,6 +54,8 @@ Schedule Trigger (weekly) → **PageSpeed & Core Web Vitals** (Sitemap: `https:/
 IF `hasRegression` → Slack / Gmail. Importable starter: [`examples/core-web-vitals-check.json`](examples/core-web-vitals-check.json).
 Tested on n8n 2.43.7 (field-data-only run for web.dev: 1 item in about 6 s).
 
+Want the results in a spreadsheet with a checklist and client report? See the [CWV Audit Kit for Google Sheets](https://tobbytools.gumroad.com/l/kzrcvu).
+
 ## Pricing
 
 The Actor is pay per event, billed to your Apify account: **$0.006 per page audit**, $0.001 per field-data-only check,
